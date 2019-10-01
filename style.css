@@ -1,0 +1,9 @@
+h1 {
+    color: grey;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+}
+
