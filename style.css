@@ -20,9 +20,12 @@ h3 {
     margin: 10px;
 }
 
+input[type="text"] {  
+    text-align: center; 
+} 
+
 #display {
     width: 100%;
     border: dotted grey;
     height: 50px;
-    text-align: center;
 }
