@@ -1,3 +1,7 @@
+h3 {
+    color: grey;
+}
+
 .navbar-dark .navbar-brand {
     color: grey;
     font: 40px;
@@ -10,5 +14,15 @@
 
 .navbar-brand {
     font-size: 2.25em;
+}    
+
+.navbar-dark .navbar-brand {
+    margin: 10px;
 }
 
+#display {
+    width: 100%;
+    border: dotted grey;
+    height: 50px;
+    text-align: center;
+}
