@@ -1,19 +1,44 @@
-//create generate password function
-function generatePW() {
+//set password length - DON'T NEED
+//var length = document.getElementById("password").value;    
 
-//set password length
-var length = document.getElementById("password").value;    
+//create variable for all possible values (upper, lower, special, num) & prompt possible values
+var num = prompt("How many characters would you like? Please choose between 8-128.")
+var confirmUpper = confirm("Do you want to include uppercase characters?");
+var confirmLower = confirm("Do you want to include lowercase characters?");
+var confirmSpecial = confirm("Do you want to include special characters?");
+var confirmNumbers = confirm("Do you want to include numbers?");
 
-//create variable all possible values (upper, lower, special, num) and
-var values = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-_=+;:',<.>/?0123456789";
+if (confirmLower === false && confirmUpper === false && confirmSpecial === false && confirmNumbers === false) {
+    alert("Please choose at least one criteria.")
+}
 
+function generate(num) {
+
+var lower = "abcdefghijklmnopqrstuvwxyz";
+var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var special = "!@#$%^&*()-_=+;:',<.>/?";
+var numbers = "0123456789";
+var all = "";
+if (confirmLower) {
+    all = all + lower;
+}
+if (confirmUpper) {
+    all = all + upper;
+}
+if (confirmSpecial) {
+    all = all + special;
+}
+if (confirmNumbers) {
+    all = all + numbers;
+}
 //create variable that gets set when user hits generate
 var password = "";
 
-//create for loop to choose various passwords
-for (var i = 0; i <= length; i++) {
+//create for loop to choose various passwords  - FOR EXAMPLE USE VARIABLE USED IN # CHARACTERS PROMPT INSTEAD OF LENGTH
+for (var i = 0; i < num; i++) {
     
-    password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
+    var character = Math.floor(Math.random() * all.length);
+    password += all.substring(character, character + 1);
 }
 
     document.getElementById("password").value = password;
