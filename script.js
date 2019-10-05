@@ -11,15 +11,21 @@ var values = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()-_=+
 var password = "";
 
 //create for loop to choose various passwords
-
 for (var i = 0; i <= length; i++) {
-    //if (password.value.length >= 8 && password.value.length <= 128) {
     
     password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
 }
+
     document.getElementById("password").value = password;
 
 //add passwords to generated passwords list
     document.getElementById("previousPWs").innerHTML += password + "<br />";    
 
+}
+
+//create copy to clipboard function
+function copyPW(){
+    document.getElementById("password").select();
+    document.execCommand("Copy");
+    alert("Password copied to clipboard");
 }
