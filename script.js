@@ -1,6 +1,3 @@
-//set password length - DON'T NEED
-//var length = document.getElementById("password").value;    
-
 //create variable for all possible values (upper, lower, special, num) & prompt possible values
 var num = prompt("How many characters would you like? Please choose between 8-128.")
 var confirmUpper = confirm("Do you want to include uppercase characters?");
