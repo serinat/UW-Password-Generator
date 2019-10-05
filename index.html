@@ -24,22 +24,18 @@
                 <div class="content">
                     <h3>Generate a Password</h3>
                     <hr>
-                    <input type="text" id="display" placeholder="Your Secure Password">
-                    <br />
+                    <div class = "text-box">
+                    <textarea class="form-control col text-center bg-white" rows="5" readonly id="password" placeholder="Your Secure Password"
+                    aria-label="Generated Password"></textarea>
+                    </div>    
                     <hr>
-                    <button class="btn btn-danger" onclick="">Generate</button>
-                    <button class="btn btn-secondary" onclick="">Copy to Clipboard</button>
-                    <div id="length">
+                    <button class="btn btn-danger" id="generate">Generate</button>
+                    <button class="btn btn-secondary" id="copy">Copy to Clipboard</button>
                     </div>
                     <br />
-
-
-
                 </div>
             </div>
         </div>
-    </div>
-   </div> 
 </body>
 
 </html>

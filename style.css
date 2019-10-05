@@ -1,7 +1,7 @@
 h3 {
     color: grey;
 }
-
+    
 .navbar-dark .navbar-brand {
     color: grey;
     font: 40px;
@@ -18,14 +18,19 @@ h3 {
 
 .navbar-dark .navbar-brand {
     margin: 10px;
-}
+}    
 
-input[type="text"] {  
-    text-align: center; 
-} 
-
-#display {
+#password {
     width: 100%;
     border: dotted grey;
-    height: 50px;
+    color: grey;
+}
+
+#generate {
+    border-radius: 1rem;
+}
+
+#copy {
+    float: right;
+    border-radius: 1rem;
 }
