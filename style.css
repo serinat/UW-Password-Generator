@@ -34,3 +34,21 @@ h3 {
     float: right;
     border-radius: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+      margin: 20px;
+    }
+}
+
+    @media screen and (max-width: 640px) {
+  
+    .wrapper {
+      width: 100%;
+      padding: 20px;
+      margin: 0;
+    }
+}
