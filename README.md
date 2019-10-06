@@ -12,7 +12,7 @@
 
 - All in all, I found this homework/project to be extremely challenging, spending hours on end figuring out how to start building, writing, and reviewing. However, it was a very educational lesson in being introduced to Javascript and using it to provide functionality to the page.
 
-##Screenshots
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/16216345/66272955-6c014500-e824-11e9-8e53-51382f1e1414.png)
 
@@ -31,7 +31,7 @@
 ![image](https://user-images.githubusercontent.com/16216345/66273064-5a6c6d00-e825-11e9-9fbd-a8a5108a28b7.png)
 
 
-##Resources
+## Resources
 
 - https://getbootstrap.com/
 - https://developer.mozilla.org/en-US/
