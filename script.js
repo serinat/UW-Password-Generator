@@ -1,14 +1,34 @@
-//create variable for all possible values (upper, lower, special, num) & prompt possible values
-var num = prompt("How many characters would you like? Please choose between 8-128.")
-var confirmUpper = confirm("Do you want to include uppercase characters?");
-var confirmLower = confirm("Do you want to include lowercase characters?");
-var confirmSpecial = confirm("Do you want to include special characters?");
-var confirmNumbers = confirm("Do you want to include numbers?");
+//create function for password range/length, variables for all possible values (upper, lower, special, num) & prompt possible values
+confirmRange();
+
+var num;
+var confirmUpper;
+var confirmLower;
+var confirmSpecial;
+var confirmNumbers;
+
+function confirmRange() {
+
+//create prompt for users desired password criteria
+num = prompt("How many characters would you like? Please choose between 8-128.");
+
+if (parseInt(num) < 8 || parseInt(num) > 128) {
+    alert("Please choose a number greater than 8 or less than 128!");
+    return confirmRange();
+
+}  else {
+confirmUpper = confirm("Do you want to include uppercase characters?");
+confirmLower = confirm("Do you want to include lowercase characters?");
+confirmSpecial = confirm("Do you want to include special characters?");
+confirmNumbers = confirm("Do you want to include numbers?");
+    }
+}
 
 if (confirmLower === false && confirmUpper === false && confirmSpecial === false && confirmNumbers === false) {
     alert("Please choose at least one criteria.")
 }
-
+   
+//create a function that randomly picks one of the following criteria picked by user
 function generate(num) {
 
 var lower = "abcdefghijklmnopqrstuvwxyz";
