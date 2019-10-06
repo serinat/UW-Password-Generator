@@ -12,6 +12,25 @@
 
 - All in all, I found this homework/project to be extremely challenging, spending hours on end figuring out how to start building, writing, and reviewing. However, it was a very educational lesson in being introduced to Javascript and using it to provide functionality to the page.
 
+##Screenshots
+
+![image](https://user-images.githubusercontent.com/16216345/66272955-6c014500-e824-11e9-8e53-51382f1e1414.png)
+
+![image](https://user-images.githubusercontent.com/16216345/66273016-f34eb880-e824-11e9-8d79-1183461290c1.png)
+
+![image](https://user-images.githubusercontent.com/16216345/66273022-0792b580-e825-11e9-921c-df146b0549b8.png)
+
+![image](https://user-images.githubusercontent.com/16216345/66273030-1711fe80-e825-11e9-9f9c-63526806c7f2.png)
+
+![image](https://user-images.githubusercontent.com/16216345/66273040-27c27480-e825-11e9-9b4c-adc76496ae15.png)
+
+![image](https://user-images.githubusercontent.com/16216345/66273048-37da5400-e825-11e9-8caf-a80d0da10c93.png)
+
+![image](https://user-images.githubusercontent.com/16216345/66273051-46287000-e825-11e9-85dc-141e196e8672.png)
+
+![image](https://user-images.githubusercontent.com/16216345/66273064-5a6c6d00-e825-11e9-9fbd-a8a5108a28b7.png)
+
+
 ##Resources
 
 - https://getbootstrap.com/
